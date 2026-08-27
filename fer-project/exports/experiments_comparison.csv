@@ -1,0 +1,6 @@
+experiment_id,accuracy,macro_f1,weighted_f1,roc_auc,f1_happy,f1_sad,f1_surprise,f1_anger,f1_disgust,f1_fear,f1_neutral,metric_file
+mobilenetv3_large_100_rafdb_20260824_181109,74.92,0.685,0.7514,0.9376,0.8643,0.6811,0.7686,0.6857,0.5109,0.5957,0.6886,experiments/mobilenetv3_large_100_rafdb_20260824_181109/mobilenetv3_large_100_rafdb_20260824_181109/results/best_metrics.json
+mobilenetv3_large_100_rafdb_20260811_112643,74.02,0.6691,0.7437,0.9336,0.859,0.6946,0.73,0.6866,0.4722,0.5556,0.6859,experiments/ikili_veriseti/mobilenetv3_large_100_rafdb_20260811_112643/results/best_metrics.json
+convnext_tiny_combined_20260824_200317,73.91,0.6977,0.725,0.914,0.5167,0.5961,0.9256,0.8373,0.5441,0.7978,0.6661,experiments/convnext_tiny_combined_20260824_200317/results/best_metrics.json
+efficientnet_b0_combined_20260824_180952,70.91,0.6634,0.6935,0.9126,0.4995,0.5278,0.9132,0.8305,0.5262,0.7668,0.58,experiments/efficientnet_b0_combined_20260824_180952/results/best_metrics.json
+mobilenetv3_large_100_rafdb_20260810_160228,20.0,0.1333,0.08,,0.0,0.0,0.0,0.4,0.0,0.0,0.0,experiments/ikili_veriseti/mobilenetv3_large_100_rafdb_20260810_160228/results/best_metrics.json

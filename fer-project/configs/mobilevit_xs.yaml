@@ -1,0 +1,6 @@
+# MobileViT-XS override configuration
+experiment:
+  name: "mobilevit_xs_rafdb"
+
+model:
+  backbone: "mobilevit_xs"

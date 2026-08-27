@@ -1,0 +1,21 @@
+# Environment & IDE
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Large Raw Datasets & Temporary Training Files
+/fer-project/data/raw/
+/fer-project/data/processed/
+/fer-project/.gradio/
+/fer-project.zip
+
+# Model Checkpoints (Keep ONNX model in exports)
+*.pt
+*.pth
+!fer-project/exports/mobilenetv3.onnx

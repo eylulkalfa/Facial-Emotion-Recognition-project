@@ -1,0 +1,6 @@
+# EfficientNet-B0 override configuration
+experiment:
+  name: "efficientnet_b0_rafdb"
+
+model:
+  backbone: "efficientnet_b0"

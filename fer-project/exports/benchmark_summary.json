@@ -1,0 +1,33 @@
+{
+  "onnx_path": "/Users/eylulkalfa/Desktop/amani/task2/fer-project/exports/mobilenetv3.onnx",
+  "temperature": 1.7819,
+  "verification": {
+    "passed": true,
+    "max_abs_diff": 1.4901161193847656e-06,
+    "mean_abs_diff": 9.067356586456299e-07,
+    "num_samples_tested": 10,
+    "all_diffs": [
+      1.1473894119262695e-06,
+      1.0579824447631836e-06,
+      8.046627044677734e-07,
+      9.5367431640625e-07,
+      7.897615432739258e-07,
+      1.1324882507324219e-06,
+      5.587935447692871e-07,
+      5.364418029785156e-07,
+      1.4901161193847656e-06,
+      5.960464477539062e-07
+    ]
+  },
+  "benchmark": {
+    "pytorch_mean_ms": 38.154885031981394,
+    "pytorch_std_ms": 0.9298511094228962,
+    "pytorch_p95_ms": 38.712973217479885,
+    "onnx_mean_ms": 3.3247454673983157,
+    "onnx_std_ms": 0.30098827026180175,
+    "onnx_p95_ms": 3.997898567467928,
+    "speedup_ratio": 11.476031896612646,
+    "pytorch_size_mb": 16.06368637084961,
+    "onnx_size_mb": 16.051453590393066
+  }
+}
